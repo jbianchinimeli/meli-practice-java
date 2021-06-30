@@ -19,7 +19,6 @@ public class Main {
         print(Arrays.toString(enteros));
 
         QuickSortSorterImple quickSorter = new QuickSortSorterImple();
-//        Comparator<Integer> intComp = Integer::compareTo;
         quickSorter.sort(enteros, Comparator.comparingInt(Integer::intValue));
 
         print(Arrays.toString(enteros));
@@ -33,7 +32,6 @@ public class Main {
         print(Arrays.toString(nombres));
 
         HeapSortSorterImple heapSorter = new HeapSortSorterImple();
-//        Comparator<String> stringComp = String::compareTo;
         heapSorter.sort(nombres, Comparator.comparing(String::toString));
 
         print(Arrays.toString(nombres));
