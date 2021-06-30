@@ -1,4 +1,4 @@
-package Clase2.Modelado;
+package Clase2.Encapsulamiento;
 
 public class Contador {
 
