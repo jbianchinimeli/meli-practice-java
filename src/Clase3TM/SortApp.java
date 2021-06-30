@@ -1,4 +1,4 @@
-package Clase3;
+package Clase3TM;
 
 import java.util.Arrays;
 

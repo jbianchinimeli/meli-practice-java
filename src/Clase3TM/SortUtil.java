@@ -1,6 +1,6 @@
-package Clase3;
+package Clase3TM;
 
-import Clase3.Interfaces.IPrecedable;
+import Clase3TM.Interfaces.IPrecedable;
 
 public class SortUtil {
 

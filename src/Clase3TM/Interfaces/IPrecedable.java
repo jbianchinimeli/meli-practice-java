@@ -1,4 +1,4 @@
-package Clase3.Interfaces;
+package Clase3TM.Interfaces;
 
 public interface IPrecedable<T>{
 
