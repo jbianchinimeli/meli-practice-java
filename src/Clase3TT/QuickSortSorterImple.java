@@ -14,7 +14,7 @@ public class QuickSortSorterImple<T> implements Sorter<T> {
       arr[] --> Array to be sorted,
       low  --> Starting index,
       high  --> Ending index */
-    void sort(T arr[], int low, int high, Comparator<T> c)
+    private void sort(T arr[], int low, int high, Comparator<T> c)
     {
         if (low < high)
         {
@@ -35,7 +35,7 @@ public class QuickSortSorterImple<T> implements Sorter<T> {
        smaller (smaller than pivot) to left of
        pivot and all greater elements to right
        of pivot */
-    int partition(T arr[], int low, int high, Comparator<T> c)
+    private int partition(T arr[], int low, int high, Comparator<T> c)
     {
         T pivot = arr[high];
         int i = (low-1); // index of smaller element
